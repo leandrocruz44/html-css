@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(45deg, lightgreen, rgb(255, 130, 130));
+    margin: 0px
+}
+
+header{
+    text-align: center;
+    background-color: rgb(189, 255, 255);
+    padding: 5px;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav > a{
+    margin: 30px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: lightgray;
+    padding: 30px;
+    margin: 20px;
+}
+
+h2, h3, h4{
+    background-color: rgb(255, 157, 157);
+    padding: 4px;
+    border: 1px dotted purple;
+    box-shadow: 3px 3px 12px black;
+    border-radius: 10px;
+}
+
+h2.seçao{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+aside{
+    width: fit-content;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid goldenrod;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}

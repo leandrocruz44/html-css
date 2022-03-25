@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>As imagens nessa página se adaptam de acordo com o tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="casal500.jpeg" type="image/jpg">
+        <source media="(max-width: 1250px)" srcset="casal800.jpeg" type="image/jpg">
+        <img src="casal.jpeg" alt="A imagem flexível funciona">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir um áudio em HTML 5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/soul-food-chris-haugen.mp3" type="audio/mpeg">
+        <source src="audio/soul-food-chris-haugen.ogg" type="audio/mpeg">
+        <source src="audio/soul-food-chris-haugen.wav" type="audio/mpeg">
+        <p>Infelizmente o áudio não pode ser reproduzido. Clique <a href="audio/soul-food-chris-haugen.mp3">aqui</a> para fazer o download do arquivo.</p>
+    </audio>
+</body>
+</html>

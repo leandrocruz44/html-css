@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: green;
+    --cor2: red;
+    --cor3: yellow;
+    --cor4: blue;
+    --cor5: purple;
+    --cor6: orange;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte-destaque: Times, serif;
+    --fonte-titulo: Impact, serif;
+}
+
+
+body{
+    background-color: var(--cor6);
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cor1);
+}
+
+h2{
+    font-family: var(--fonte-destaque);
+    color: var(--cor4);
+}
+
+p{
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+}
