@@ -64,11 +64,16 @@ a:hover{
 main{
     margin: auto;
     max-width: 850px;
-    min-width: 350px;
+    min-width: 300px;
     background-color: white;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0px 7px 25px 3px rgba(0, 0, 0, 0.445);
     border-radius: 0px 0px 10px 10px;
+}
+
+article{
+    padding: 20px;
+    margin-top: 0px;
 }
 
 
@@ -94,10 +99,11 @@ div#video{
 */
 div#video{
     background-color: #1b5e38;
-    margin: 0px -30px 30px -30px;
-    padding: 20px;
+    margin: 0px auto 30px auto;
+    padding: 0px;
     padding-bottom: 59%;
     position: relative;
+    border-radius: 10px;
 }
 
 div#video > iframe{
@@ -193,6 +199,8 @@ ul{
     list-style-image: url(imagens/check15.png);
     columns: 2;
     list-style-position: inside;
+    font-size: 0.8em;
+    padding: 8px;
 }
 
 /* RODAPÉ */
