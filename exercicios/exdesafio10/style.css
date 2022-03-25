@@ -25,11 +25,11 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, #3CD782, #288E55);
-    height: 170px;
+    max-height: 230px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 5px black;
-    padding: 10px ;
+    padding: 1px ;
 }
 
 header > p{
@@ -126,6 +126,7 @@ h1{ /* Título Principal da Página */
     font-family: 'Bebas';
     font-weight: normal;
     font-size: 3em;
+    margin: 0.5em;
 }
 
 h2{ /* Título do Conteúdo */
@@ -199,7 +200,6 @@ ul{
     list-style-image: url(imagens/check15.png);
     columns: 2;
     list-style-position: inside;
-    font-size: 0.8em;
     padding: 8px;
 }
 
