@@ -64,7 +64,7 @@ a:hover{
 main{
     margin: auto;
     max-width: 850px;
-    min-width: 400px;
+    min-width: 350px;
     background-color: white;
     padding: 30px;
     box-shadow: 0px 7px 25px 3px rgba(0, 0, 0, 0.445);
@@ -106,7 +106,7 @@ div#video > iframe{
     left: 5%;
     width: 90%;
     height: 90%;
-}*/
+}
 
 #bugdroid{
     display: block;
@@ -147,7 +147,7 @@ h4{ /* Título do Periférico */
 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify ;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 2em;
     margin: 15px 0px;
 }
