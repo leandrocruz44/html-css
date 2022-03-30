@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -22,9 +23,19 @@
             color: blue;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: lightslategray;
+        }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightpink;
         }
 
         .num{
@@ -39,17 +50,6 @@
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <!--
-        ANATOMIA PARA TABELAS GRANDES
-        TABLE
-            THEAD
-                TR, TD, TH
-            TBODY
-                TR, TD, TH
-            TFOOT 
-                TR, TD, TH
-    -->
-
     <table>
         <caption>Os 10 Estados mais populosos dos Brasil</caption>
         <thead>
@@ -99,11 +99,79 @@
                 <td>Santa Catarina</td>
                 <td class="num">7 338 473</td>
             </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 206 589</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 153 262</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 269 995</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 108 508</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4 059 905</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 567 234</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 560 903</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 365 351</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3 289 290</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3 094 325</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 839 188</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2 338 474</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1 815 278</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1 607 363</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">906 876</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">877 613</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">652 713</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de Habitantes</th>
-                <td class="num"><strong>158 604 772</strong></td>
+                <td class="num"><strong>213 317 639</strong></td>
             </tr>
         </tfoot>
     </table>
