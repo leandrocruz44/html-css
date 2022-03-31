@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            padding: 5px;
+            background-color: lightcoral;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            width: 150px;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        div#container{
+            overflow-x: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore vel possimus recusandae aspernatur amet in nisi exercitationem dicta dignissimos corporis cupiditate repellendus eligendi omnis suscipit pariatur aut, sed quae maiores.</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Janeiro</th>
+                    <th>Fevereiro</th>
+                    <th>Março</th>
+                    <th>Abril</th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                    <th>Julho</th>
+                    <th>Agosto</th>
+                    <th>Setembro</th>
+                    <th>Outubro</th>
+                    <th>Novembro</th>
+                    <th>Dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 42''</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>06</td>
+                    <td>03</td>
+                    <td>09</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
