@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            width: 600px;
+            height: 900px;
+            margin: 30px auto;
+            /*position: relative;*/
+        }
+
+        section{
+            background-color: darkolivegreen;
+            width: 100px;
+            height: 100px;
+            color: white;
+        }
+
+        #relativo{
+            position: relative;
+            left: 180px;
+            top: 60px;
+            width: 150px;
+            height: 150px;
+        }
+
+        #absoluto{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 150px;
+            height: 150px;
+        }
+
+        #fixo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Posicionamento</h1>
+
+        <h2>Relative</h2>
+        <section id="relativo">
+            Relative - É posicionada livremente de acordo com a posição que ocuparia originalmente
+        </section>
+
+        <h2>Absolute</h2>
+        <section id="absoluto">
+            <strong>Absolute</strong> - Essa div é posicionada rem relação ao parent mais próximo que possui um posicionamento definido.
+        </section>
+
+        <h2>Fixed</h2>
+        <section id="fixo">
+            Fixed - Torna a div fixa em relação ao viewport. <br>
+            Nesse caso a div está fixada no topo, na esquerda e coupando 100% da viewport.
+        </section>
+    </main>
+</body>
+</html>
