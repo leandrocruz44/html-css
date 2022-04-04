@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@keyframes animacao{
+    from{
+        background-color: red;
+        border-radius: 0px;
+        content: url(thumbs-up.png);
+        /* Posição inicial */
+        top: 0; 
+        left: 0;
+    }
+
+    to{
+        background-color: green;
+        border-radius: 300px;
+        content: url(middle-finger.png);
+        /* Posição final */
+        top: 250px;
+        left: 250px;
+    }
+}
+
+
+#animacao{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    position: relative; /* Aqui podemos definir que o objeto será relativo */
+    animation-name: animacao;
+    animation-duration: 1s; /* Duração da animação */
+    animation-delay: 1s; /* Tempo para começar a animação */
+    animation-iteration-count: infinite; /* Quantas vezes a animação vai durar */
+    animation-direction: alternate; /* A animação vai e volta ao estado inicial */
+}
