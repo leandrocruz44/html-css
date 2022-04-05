@@ -91,6 +91,13 @@ article{
     border-radius: 10px;
     width: 100%;
 }
+
+.imagem:hover{ /* Fazer a imagem se expandir */
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
 /* Minha solução combinada com o que está em comentário no HTML
 div#video{
     background-color: #288E55;
